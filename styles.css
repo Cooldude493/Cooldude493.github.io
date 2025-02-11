@@ -8,19 +8,9 @@ h1,h2{
   text-align: center;
 }
 
-
-.navbar ul{
-  list-style-type: none;
-  overflow: hidden;
+div{
+  text-align: center;
 }
-.navbar li{
-  float: left;
-}
-
-#mylink{
-  margin: 100px;
-}
-
 
 #myLink {
     display: inline-block;
