@@ -9,10 +9,13 @@ h1,h2{
 }
 
 nav {
+  background-color: #575c5c75;
   display: flex; 
   align-items: center;
-  justify-content: flex-start; 
+  justify-content:center; 
 }
+
+
 
 #myLink {
     display: inline-block;
