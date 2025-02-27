@@ -9,12 +9,40 @@
 <body>
     <nav>
         <img src="logo.png" alt="" height="150">
-        <a href="home.html" id="myLink">Home page</a>
+        <a href="index.html" id="myLink">Home page</a>
         <a href="projects.html" id="myLink">Projects</a>
         <a href="resume.html" id="myLink">Resume</a>
         <a href="contact_info.html" id="myLink">Contact me</a>
     </nav>
     <h2> Contact Info</h2>
+    <form
+    action="https://form-to-email.steam-center.workers.dev/"
+    method="post"
+    >
+    <input name="send-to" value="jgeban@brooklynsteamcenter.org" hidden>
+<label>First Name </label>
+<input name="their_first_name"/>
+<br><br>
+<label>Last Name</label>
+<input name="their_last_name"/>
+<br><br>
+<label> Phone Number</label>
+<input type="tel" name="their_phone_number"/>
+<br><br>
+<label>Email</label>
+<input type="email" name="their_email"/>
+<br><br>
+<label>Puropse for contact*</label>
+<textarea required name="puropse_for_contact"></textarea>
+<br><br>
+<input type="submit" id="myLink" />
+<input type="reset" id="myLink"/>
+
+
+
+
+
+    </form>
         
 </body>
 </html>
