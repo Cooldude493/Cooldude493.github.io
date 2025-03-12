@@ -31,7 +31,7 @@ font-family: "Fira Sans", serif;
 
 
 
-#myLink {
+.myLink {
     display: inline-block;
     padding: 12px 24px;
     background-color: #00ADB5;
@@ -50,7 +50,7 @@ font-family: "Fira Sans", serif;
     margin: 5px;
   }
   
-  #myLink:before {
+  .myLink:before {
     content: '';
     position: absolute;
     top: 0;
@@ -61,16 +61,16 @@ font-family: "Fira Sans", serif;
     transition: all 0.4s;
   }
   
-  #myLink:hover {
+  .myLink:hover {
     transform: translateY(-3px);
     box-shadow: 0 2px 8px #EEEEEE;
   }
   
-  #myLink:hover:before {
+  .myLink:hover:before {
     left: 100%;
   }
   
-  #myLink:active {
+  .myLink:active {
     transform: translateY(1px);
     box-shadow: 0 2px 4px rgba(232, 3, 167, 0.5);
   }
