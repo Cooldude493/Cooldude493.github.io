@@ -16,6 +16,16 @@ font-family: "Fira Sans", serif;
 text-align: center;
 }
 
+.aboutme div{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+}
+
 nav{
   background-color: #575c5c75;
   display: flex; 
